@@ -1,0 +1,47 @@
+Meet the completely new XWindows Dock
+We are proud to release new updated version of XWindows Dock. It includes various new features, bug fixes, performance and stability improvements.
+
+Remember that this is still a beta version. That means some bugs, unimplemented functions etc. So if you have issues or feature requests with this version, feel free to ask us at XWindows Dock discussion forum at Aqua-soft.org (registration required).
+
+By the way, since we have introduced XWindows Dock 2.0 beta in January, 2010 it was downloaded more than 210 000 times. Thank you, guys!
+
+What's new in version 2.0.3
+Screen reservation on Windows XP issue fixed.
+Multi-monitor configuration issue fixed.
+New API allows to simply control the application's icon in the dock. It can be implemented with any programming language, by default it's C# (.net required).
+Plugin manager for plugins developed with new API added.
+Feature: popup dock when mouse is over when dock is not over all windows
+New application icons are added automatically if they are not in the dock yet. This feature is experimental and disabled by default.
+Some compatibility with x64 Windows builds. Now without notifications added.
+You'll get 2 great plugins with the new Plugin manager : new stack container with fan/grid views, realistic scrolling and ability to navigate through folders. Another one, simple GMail checker, that simply shows unread email count in the dock (direct internet access and .net framework required).
+Technical information
+XWindows Dock provides fully compatibilities with Windows Vista and Windows 7. Probably works fine on Windows XP.
+
+Version history
+XWindows Dock version 2.0.2
+This version includes few excellent features for users such as stack improvements and bouncing effect.
+
+Be sure to check complete list of changes:
+
+Introducing bounce effect for icons and stacks.
+Now you can see previews of photos and movies right in the stacks. You can even scroll movies frames using scroll wheel on your mouse.
+Added support for custom stack icon.
+Bounce effect will notify you about any kind of changes that are happening in the stack's folder.
+Also XWindows Dock will notify you about all flashing windows in the taskbar. This can be favorite instant messaging client (e.g. Pidgin or Miranda), Skype, FTP-client and so on.
+Now dock looks much better with smoother borders in 3D mode.
+Developer API updated to 0.0.0.2 version. Now developers can use bouncing effect for their plugins.
+And, as usual, XWindows Dock become more stable and fast.
+XWindows Dock version 2.0.1
+Stack. Finaly, the stack feature was integrated with XWDock 2.0. Sure, this is not the same Stack that was earlier, but even now it very useful. The new stack was implemented like a plugin.
+Exposé. This feature is the easiest way to browse through your opened applications and windows. Unfortunately (or maybe fortunately) this truly incredible function works only on Windows Vista and Windows 7. Just click the icon of running application and wait (or use Alt+Click) to show all windows of this application.
+Slow down the animation with Shift key. Surprise your friend with smoothest animation.
+Stability and performance improvements.
+Additional features
+Except the main features listed above application has some additional functions:
+
+Auto-update. Now XWDock can check updates and will notify user when new version is available (internet connection required).
+Keyboard shortcuts allows you to use "hidden features" of the XWDock.
+Clean and simple Preferences window.
+Reserving space of the screen allow you to work with Dock at any time from anywhere.
+Make your XWDock autostart with Windows.
+Partial support of the ObjectDock docklets. Some features won't work.

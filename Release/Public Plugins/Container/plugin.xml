@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Container</name>
+  <author>Vladimir Lichonos</author>
+  <url>http://xwdock.aqua-soft.org</url>
+  <description>To add new container icon onto the dock, please, open the folder of plugin, copy and run new ContainerPublic.exe</description>
+  <path>ContainerPublic.exe</path>
+  <icon>Container-Empty.png</icon>
+</plugin>

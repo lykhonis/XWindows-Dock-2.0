@@ -1,0 +1,9 @@
+LIBRARY	"ExampleDocklet"
+
+EXPORTS
+	XWDGetPluginType
+	XWDGetPluginIcon
+	XWDGetPluginInformation
+	XWDPluginInitialize
+	XWDPluginDeinitialize
+	XWDPluginEvent

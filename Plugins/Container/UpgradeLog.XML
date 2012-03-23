@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Container">
+</Property><Property Name="Solution File" Value="E:\Coding_C\XWD\Plugins\Container\Container.sln">
+</Property><Property Name="Date" Value="20 февраля 2010 г.">
+</Property><Property Name="Time" Value="6:35">
+</Property></Properties><Event ErrorLevel="0" Project="Container" Source="Container\Container.vcproj" Description="Converting project file 'E:\Coding_C\XWD\Plugins\Container\Container\Container.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Container" Source="Container\Container.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Container" Source="Container\Container.vcproj" Description="MSB8012: $(TargetPath) ('E:\Coding_C\XWD\Plugins\Container\Release\Container.dll') does not match the Linker's OutputFile property value 'E:\Coding_C\XWD\Release\Plugins\Container\Container.dll' ('E:\Coding_C\XWD\Release\Plugins\Container\Container.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Container" Source="Container\Container.vcproj" Description="Done converting to new project file 'E:\Coding_C\XWD\Plugins\Container\Container\Container.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Container" Source="Container\Container.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Container.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Container.sln" Description="Converted">
+</Event></UpgradeLog>

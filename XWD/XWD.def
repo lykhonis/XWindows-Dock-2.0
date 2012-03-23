@@ -1,0 +1,23 @@
+EXPORTS
+	XWDExec=XWDExecArgs
+	XWDGetLastError
+	
+	DockletIsVisible
+	DockletGetRect
+	DockletGetLabel
+	DockletSetLabel
+	DockletLoadGDIPlusImage
+	DockletSetImage
+	DockletSetImageFile
+	DockletSetImageOverlay
+	DockletBrowseForImage
+	DockletLockMouseEffect
+	DockletDoAttentionAnimation
+	DockletGetRelativeFolder
+	DockletGetRootFolder
+	DockletDefaultConfigDialog
+	DockletQueryDockEdge
+	DockletSetDockEdge
+	DockletQueryDockAlign
+	DockletSetDockAlign
+	

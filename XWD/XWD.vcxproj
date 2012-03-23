@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CCA0C138-6953-47ED-9996-7C609218EC77}</ProjectGuid>
+    <RootNamespace>XWD</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30128.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINVER=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>XWD.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WINVER=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>XWD.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="balloontext.cpp" />
+    <ClCompile Include="checkbox.cpp" />
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="dib.cpp" />
+    <ClCompile Include="dock3d.cpp" />
+    <ClCompile Include="editicon.cpp" />
+    <ClCompile Include="expose.cpp" />
+    <ClCompile Include="folderwatch.cpp" />
+    <ClCompile Include="gcombobox.cpp" />
+    <ClCompile Include="icons.cpp" />
+    <ClCompile Include="imagebutton.cpp" />
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="items.cpp" />
+    <ClCompile Include="json_reader.cpp" />
+    <ClCompile Include="json_value.cpp" />
+    <ClCompile Include="json_writer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="minimizer.cpp" />
+    <ClCompile Include="monitors.cpp" />
+    <ClCompile Include="notifications.cpp" />
+    <ClCompile Include="oddocklets.cpp" />
+    <ClCompile Include="oledatasourceex.cpp" />
+    <ClCompile Include="pluginlist.cpp" />
+    <ClCompile Include="plugins.cpp" />
+    <ClCompile Include="preferences.cpp" />
+    <ClCompile Include="safedwmapi.cpp" />
+    <ClCompile Include="screencmp.cpp" />
+    <ClCompile Include="shellio.cpp" />
+    <ClCompile Include="skin.cpp" />
+    <ClCompile Include="skinlist.cpp" />
+    <ClCompile Include="tabscontrol.cpp" />
+    <ClCompile Include="trackbar.cpp" />
+    <ClCompile Include="update.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="xwd.cpp" />
+    <ClCompile Include="XWDAPI.cpp" />
+    <ClCompile Include="XWDPublicAPI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="32764.cur" />
+    <None Include="32765.cur" />
+    <None Include="XWD.def" />
+    <None Include="xwd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="app.h" />
+    <ClInclude Include="balloontext.h" />
+    <ClInclude Include="checkbox.h" />
+    <ClInclude Include="consts.h" />
+    <ClInclude Include="core.h" />
+    <ClInclude Include="dib.h" />
+    <ClInclude Include="dock3d.h" />
+    <ClInclude Include="editicon.h" />
+    <ClInclude Include="expose.h" />
+    <ClInclude Include="folderwatch.h" />
+    <ClInclude Include="gcombobox.h" />
+    <ClInclude Include="icons.h" />
+    <ClInclude Include="imagebutton.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="items.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="minimizer.h" />
+    <ClInclude Include="monitors.h" />
+    <ClInclude Include="notifications.h" />
+    <ClInclude Include="oddocklets.h" />
+    <ClInclude Include="oledatasourceex.h" />
+    <ClInclude Include="pluginlist.h" />
+    <ClInclude Include="plugins.h" />
+    <ClInclude Include="preferences.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="safedwmapi.h" />
+    <ClInclude Include="screencmp.h" />
+    <ClInclude Include="shellio.h" />
+    <ClInclude Include="skin.h" />
+    <ClInclude Include="skinlist.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tabscontrol.h" />
+    <ClInclude Include="trackbar.h" />
+    <ClInclude Include="update.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="xwd.h" />
+    <ClInclude Include="XWDAPI.h" />
+    <ClInclude Include="XWDPAPI.h" />
+    <ClInclude Include="XWDPublicAPI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xwd.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,7 @@
+LIBRARY	"XWDCore64"
+
+EXPORTS
+	MouseProc
+	WindowProc
+	CBTProc
+

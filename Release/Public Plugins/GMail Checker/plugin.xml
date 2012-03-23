@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>GMail Checker</name>
+  <author>Vladimir Lichonos</author>
+  <url>http://xwdock.aqua-soft.org</url>
+  <description>Easy access to unread emails</description>
+  <path>GMail Checker.exe</path>
+  <icon>icon.png</icon>
+</plugin>

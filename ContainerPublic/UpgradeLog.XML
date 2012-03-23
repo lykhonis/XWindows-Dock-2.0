@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ContainerPublic">
+</Property><Property Name="Solution File" Value="E:\Coding_C\XWD\ContainerPublic\ContainerPublic.sln">
+</Property><Property Name="Date" Value="29 октября 2010 г.">
+</Property><Property Name="Time" Value="16:08:40">
+</Property></Properties><Event ErrorLevel="0" Project="Interop.video" Source="Interop.video\Interop.video.vcproj" Description="Converting project file 'E:\Coding_C\XWD\ContainerPublic\Interop.video\Interop.video.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Interop.video" Source="Interop.video\Interop.video.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Interop.video" Source="Interop.video\Interop.video.vcproj" Description="MSB8012: $(TargetPath) ('E:\Coding_C\XWD\ContainerPublic\Release\Container.dll') does not match the Linker's OutputFile property value 'E:\Coding_C\XWD\Release\Plugins\Container\Container.dll' ('E:\Coding_C\XWD\Release\Plugins\Container\Container.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Interop.video" Source="Interop.video\Interop.video.vcproj" Description="Done converting to new project file 'E:\Coding_C\XWD\ContainerPublic\Interop.video\Interop.video.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Interop.video" Source="Interop.video\Interop.video.vcproj" Description="Converted">
+</Event></UpgradeLog>

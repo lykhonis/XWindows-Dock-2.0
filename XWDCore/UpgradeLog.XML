@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XWDCore">
+</Property><Property Name="Solution File" Value="E:\Coding_C\XWD\XWDCore\XWDCore.sln">
+</Property><Property Name="Date" Value="6 мая 2010 г.">
+</Property><Property Name="Time" Value="21:42">
+</Property></Properties><Event ErrorLevel="0" Project="XWDCore" Source="XWDCore\XWDCore.vcproj" Description="Converting project file 'E:\Coding_C\XWD\XWDCore\XWDCore\XWDCore.vcproj'.">
+</Event><Event ErrorLevel="1" Project="XWDCore" Source="XWDCore\XWDCore.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="XWDCore" Source="XWDCore\XWDCore.vcproj" Description="Done converting to new project file 'E:\Coding_C\XWD\XWDCore\XWDCore\XWDCore.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="XWDCore" Source="XWDCore\XWDCore.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="XWDCore.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="XWDCore.sln" Description="Converted">
+</Event></UpgradeLog>

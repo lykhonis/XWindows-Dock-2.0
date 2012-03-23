@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Name="window" x:Class="PluginManager.MainWindow"
+        Title="XWindows Dock - Plugin Manager" Height="450" Width="350" Icon="addon.ico" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" Background="Black">
+    <Grid Background="#FFEBEBEB" Margin="1">
+    	<Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Right" Margin="0,0,8,8" VerticalAlignment="Bottom" Width="75" Template="{DynamicResource ButtonTemplate}" Foreground="Black" Height="20" Click="btnRefresh_Click"/>
+    	<ScrollViewer Margin="0,36,0,36" ScrollViewer.VerticalScrollBarVisibility="Auto">
+    		<StackPanel x:Name="spContent" VerticalAlignment="Top"/>
+    	</ScrollViewer>
+    	<Border BorderThickness="0,0,0,1" Height="24" VerticalAlignment="Top" BorderBrush="Black" PreviewMouseLeftButtonDown="Title_PreviewMouseLeftButtonDown">
+    		<Border.Effect>
+    			<DropShadowEffect Direction="-90" ShadowDepth="0" BlurRadius="8"/>
+    		</Border.Effect>
+    		<Border.Background>
+    			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    				<GradientStop Color="#FF787878" Offset="0"/>
+    				<GradientStop Color="#FF363636" Offset="1"/>
+    			</LinearGradientBrush>
+    		</Border.Background>
+    		<Grid Margin="0">
+    			<StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="18,0">
+    				<Image Height="16" Width="16" HorizontalAlignment="Left" Source="{Binding Icon, ElementName=window}"/>
+    				<TextBlock Margin="2,0,0,2" Text="{Binding Title, ElementName=window}" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#FFF0F0F0" TextTrimming="CharacterEllipsis">
+    					<TextBlock.Effect>
+    						<DropShadowEffect BlurRadius="0" ShadowDepth="1" Direction="-90"/>
+    					</TextBlock.Effect>
+    				</TextBlock>
+    			</StackPanel>
+    			<Button x:Name="btnClose" Content="Button" HorizontalAlignment="Right" Margin="0,0,4,0" Template="{DynamicResource FoozSmallCloseButton}" VerticalAlignment="Center" Width="14" Height="14" Click="btnClose_Click"/>
+    		</Grid>
+    	</Border>
+        
+    </Grid>
+</Window>

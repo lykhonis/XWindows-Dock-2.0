@@ -1,0 +1,9 @@
+LIBRARY	"Container"
+
+EXPORTS
+	XWDGetPluginType
+	XWDGetPluginIcon
+	XWDGetPluginInformation
+	XWDPluginInitialize
+	XWDPluginDeinitialize
+	XWDPluginEvent

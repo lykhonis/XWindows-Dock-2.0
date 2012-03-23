@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <icon-size>94</icon-size>
+  <grid-maximum-cols>6</grid-maximum-cols>
+  <grid-maximum-rows>5</grid-maximum-rows>
+  <popup-delay>250</popup-delay>
+  <hide-delay>150</hide-delay>
+  <hover-text-enabled>true</hover-text-enabled>
+  <hover-enabled>false</hover-enabled>
+  <hover-move-delay>100</hover-move-delay>
+  <hover-popup-delay>100</hover-popup-delay>
+  <hover-hide-delay>150</hover-hide-delay>
+</configuration>
